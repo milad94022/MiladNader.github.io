@@ -1,16 +1,3 @@
-// Reference Javascript Porter Stemmer. This code corresponds to the original
-// 1980 paper available here: http://tartarus.org/martin/PorterStemmer/def.txt
-// The latest version of this code is available at https://github.com/kristopolous/Porter-Stemmer
-//
-// Original comment:
-// Porter stemmer in Javascript. Few comments, but it's easy to follow against the rules in the original
-// paper, in
-//
-//  Porter, 1980, An algorithm for suffix stripping, Program, Vol. 14,
-//  no. 3, pp 130-137,
-//
-// see also http://www.tartarus.org/~martin/PorterStemmer
-
 var stemmer = (function(){
   var step2list = {
       "ational" : "ate",
